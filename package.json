@@ -1,0 +1,31 @@
+{
+  "name": "initial_needs",
+  "version": "1.0.0",
+  "description": "Sample form for a Needs DB",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "postinstall": "grunt browserify"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "Chad D",
+  "license": "Chad D",
+  "dependencies": {
+    "babelify": "^6.1.3",
+    "body-parser": "^1.13.2",
+    "emailjs": "^1.0.10",
+    "express": "^4.13.1",
+    "grunt": "0.4.5",
+    "grunt-browserify": "^3.8.0",
+    "grunt-cli": "0.1.13",
+    "jade": "^1.11.0",
+    "load-grunt-tasks": "3.2.0",
+    "node-jsx": "^0.13.3",
+    "react": "^0.13.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.3.7"
+  }
+}
